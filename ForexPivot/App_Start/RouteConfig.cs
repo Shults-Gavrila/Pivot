@@ -18,6 +18,11 @@ namespace ForexPivot
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+            routes.MapRoute(
+                name: "Pivot",
+                url: "Pivot/{action}/{id}",
+                defaults: new { controller = "Pivot", action = "Index", id = UrlParameter.Optional }
+            );
         }
     }
 }

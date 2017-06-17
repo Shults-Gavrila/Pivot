@@ -1,0 +1,108 @@
+﻿body {
+}
+
+.pivot-cell {
+    width : 847px;
+    height : 90px;
+    margin : 6px;
+    border : 1px solid black;
+}
+.cell-flag {
+    width: 123px;
+    height: 90px;
+    padding-top: 17px;
+    padding-left: 19px;
+    float: left;
+}
+.flag-img {
+    width: 95px;
+    height: 34px;
+    background-size: cover;
+    
+}
+.flag-text {
+    margin-right : 7px;
+    text-align : center;
+    font-size : large;
+}
+.cell-sr {
+    width : 92px;
+    height : 90px;
+    float : left;
+}
+.cell-head  {
+    width : 100%;
+    height : 22px;
+    text-align : center;
+    font-size : large;
+    line-height : 22px;
+    margin-top : 2px;
+}
+.cell-value {
+    width : 100%;
+    height : 57px;
+    font-size : large;
+    text-align : center;
+    line-height : 57px;
+    border-right : 1px solid black;
+}
+.cell-pivot {
+    width : 170px;
+    height : 90px;
+    float : left;
+}
+.EURUSD {
+    background-image: url("Images/EURUSD.jpg");
+}
+
+.GBPUSD {
+    background-image: url("Images/GBPUSD.jpg");
+}
+
+.USDJPY {
+    background-image: url("Images/USDJPY.jpg");
+}
+
+.USDCHF {
+    background-image: url("Images/USDCHF.jpg");
+}
+
+.AUDUSD {
+    background-image: url("Images/AUDUSD.jpg");
+}
+
+.EURGBP {
+    background-image: url("Images/EURGBP.jpg");
+}
+
+.USDCAD {
+    background-image: url("Images/USDCAD.jpg");
+}
+
+.NZDUSD {
+    background-image: url("Images/USDNZD.jpg");
+}
+
+.EURJPY {
+    background-image: url("Images/EURJPY.jpg");
+}
+
+.EURCHF {
+    background-image: url("Images/EURCHF.jpg");
+}
+
+.GBPJPY {
+    background-image: url("Images/GBPJPY.jpg");
+}
+
+.GBPCHF {
+    background-image: url("Images/GBPCHF.jpg");
+}
+
+.Sell {
+    background-image: url("Images/Bearish.png");
+}
+
+.Buy {
+    background-image: url("Images/Bullish.png");
+}
